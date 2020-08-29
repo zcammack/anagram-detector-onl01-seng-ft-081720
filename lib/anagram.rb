@@ -4,10 +4,12 @@ class Anagram
 
   def initialize(word)
       @word = word
+      list_of_words << word
   end
 
-  def match(word)
-
+  def match(words)
+    words.each do |word|
+      
   end
 
 end
