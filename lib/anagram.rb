@@ -2,6 +2,8 @@ class Anagram
 
   attr_accessor :word
 
+list_of_words = []
+
   def initialize(word)
       @word = word
       list_of_words << word
